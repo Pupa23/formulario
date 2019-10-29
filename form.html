@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <form action="mail.php" method="post">
+          <div class="form-group">
+            <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Nombre"/>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control br-radius-zero" name="numero" id="numero" placeholder="Numero"/>
+          </div>
+
+          <div class="form-group">
+            <label for="inputState">Compañia</label>
+            <select id="inputState" class="form-control">
+            <option selected>Claro</option>
+            <option selected>Personal</option>
+            <option selected>Tuenti</option>
+            <option selected>Movistar</option>
+            <option selected>Nextel</option>
+          </select>
+          </div>
+
+          <div class="form-group">
+            <label for="inputState">Tipo de plan</label>
+            <select id="inputState" class="form-control">
+            <option selected>Abono</option>
+            <option selected>Prepago</option>
+          </select>
+          </div>
+          
+          <div class="form-action">
+            <button type="submit" class="btn btn-form">Subscribir</button>
+          </div>
+        </form>
+        </div>
+</body>
+</html>
