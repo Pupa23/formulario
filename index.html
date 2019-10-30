@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+</head>
+
+<body >
+  <div class="container row justify-content-md-center">
+    <div class="col col-7 ">
+      <h3>Cargar usuario</h3>
+      <form action="mail.php" method="post">
+        <div class="text-box form-group">
+          <input type="text" name="name" id="name" placeholder="Nombre" />
+        </div>
+        <div class="text-box">
+          <input type="text" name="numero" id="numero" placeholder="Número" />
+        </div>
+
+        <div class="text-box-select">
+          <label for="inputState">Compañía</label>
+          <select id="inputState">
+            <option>Claro</option>
+            <option>Personal</option>
+            <option>Tuenti</option>
+            <option>Movistar</option>
+            <option>Nextel</option>
+          </select>
+        </div>
+
+        <div class="text-box-select">
+          <label for="inputState">Tipo de plan</label>
+          <select id="inputState">
+            <option>Abono</option>
+            <option>Prepago</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg">Subscribir</button>
+      </form>
+    </div>
+
+  </div>
+</body>
+
+</html>
